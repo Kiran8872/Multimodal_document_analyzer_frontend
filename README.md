@@ -20,3 +20,13 @@ VITE_API_BASE_URL=https://your-backend-domain.com/api
 ```bash
 npm run build
 ```
+
+## Vercel Deployment
+
+Set this environment variable in Vercel:
+
+```bash
+VITE_API_BASE_URL=https://your-backend-domain.vercel.app/api
+```
+
+The build output directory is `dist`.
